@@ -1,0 +1,47 @@
+﻿Build started 01/05/2015 07:33:50.
+     1>Project "S:\Uni\GP\Coursework\GPCoursework\GPCoursework\GPCoursework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         S:\Visual Studios Launch\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cSprite.cpp
+         cSprite.cpp
+     1>s:\uni\gp\coursework\gpcoursework\gpcoursework\csprite.cpp(106): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>s:\uni\gp\coursework\gpcoursework\gpcoursework\csprite.cpp(107): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>s:\uni\gp\coursework\gpcoursework\gpcoursework\csprite.cpp(180): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>s:\uni\gp\coursework\gpcoursework\gpcoursework\csprite.cpp(182): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>s:\uni\gp\coursework\gpcoursework\gpcoursework\csprite.cpp(184): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>s:\uni\gp\coursework\gpcoursework\gpcoursework\csprite.cpp(206): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>s:\uni\gp\coursework\gpcoursework\gpcoursework\csprite.cpp(241): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>s:\uni\gp\coursework\gpcoursework\gpcoursework\csprite.cpp(242): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>s:\uni\gp\coursework\gpcoursework\gpcoursework\csprite.cpp(301): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+     1>s:\uni\gp\coursework\gpcoursework\gpcoursework\csprite.cpp(309): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>s:\uni\gp\coursework\gpcoursework\gpcoursework\csprite.cpp(310): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>s:\uni\gp\coursework\gpcoursework\gpcoursework\csprite.cpp(311): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+       Link:
+         S:\Visual Studios Launch\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"S:\Uni\GP\Coursework\GPCoursework\Debug\GPCoursework.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:\Uni\GP\Coursework\GPCoursework\Debug\GPCoursework.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:\Uni\GP\Coursework\GPCoursework\Debug\GPCoursework.lib" /MACHINE:X86 Debug\cCar2.obj
+         Debug\frogGame.obj
+         Debug\cBkGround.obj
+         Debug\cCar.obj
+         Debug\cFont.obj
+         Debug\cFontMgr.obj
+         Debug\cFrog.obj
+         Debug\cInputMgr.obj
+         Debug\cLog.obj
+         Debug\cSound.obj
+         Debug\cSoundMgr.obj
+         Debug\cSprite.obj
+         Debug\cTexture.obj
+         Debug\cWNDManager.obj
+         Debug\main.obj
+         Debug\windowOGL.obj
+         Libraries\alut.lib
+         Libraries\DevIL.lib
+         Libraries\freeglut.lib
+         Libraries\ftgl.lib
+         Libraries\ILU.lib
+         Libraries\ILUT.lib
+         Libraries\OpenAL32.lib
+         GPCoursework.vcxproj -> S:\Uni\GP\Coursework\GPCoursework\Debug\GPCoursework.exe
+     1>Done Building Project "S:\Uni\GP\Coursework\GPCoursework\GPCoursework\GPCoursework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.25
